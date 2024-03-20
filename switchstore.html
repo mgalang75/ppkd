@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <title>Switch Store</title>
+    <link rel="stylesheet" type="text/css" href="switchstore1.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="https://images-platform.99static.com/n9S7iOvT0hCDS0aZi2Wxz1v8fVI=/201x201:1812x1812/500x500/top/smart/99designs-contests-attachments/99/99416/attachment_99416788" type="image/x-icon">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	</head>
+	<body>
+
+		<!-- Header -->
+		<div class="header">
+			<img src="https://images-platform.99static.com/n9S7iOvT0hCDS0aZi2Wxz1v8fVI=/201x201:1812x1812/500x500/top/smart/99designs-contests-attachments/99/99416/attachment_99416788" alt="Logo">
+			<h1>Switch Store</h1>
+
+		<!-- Search Box -->
+			<form action="/search" method="get">
+				<input class="id-search" type="text" placeholder="Search..." name="search">
+				<button class="id-button" type="submit">Search</button>
+			</form>
+		</div>
+
+		<!-- Navigation Bar -->
+    <div class="navbar">
+			<div>
+				<a href="#">Home</a>
+				<a href="#">Products</a>
+				<a href="#">Contact</a>
+			</div>
+			
+			<div>
+			<!-- Buttons -->
+				<a href="#" data-bs-toggle="modal" data-bs-target="#form-registrasi"><i class="fas fa-user"></i> Registrasi</a>
+				<a href="#" data-bs-toggle="modal" data-bs-target="#form-login"><i class="fas fa-sign-in-alt"></i> Login</a>
+				<a
+				data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample"
+				><i class="fa fa-cart-plus" aria-hidden="true"></i>
+					Cart</a>
+			</div>
+		</div>
+
+		<!-- collapse -->
+		<div class="collapse" id="collapseExample">
+			<div class="card card-body">
+				Anda Belum Membeli Produk Apapun Silahkan Pilih Produk Anda Dahulu
+			</div>
+		</div>
+		
+		<!-- carousel -->
+		<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="https://img.freepik.com/free-photo/keyboard-with-neon-lights-high-angle_23-2149680226.jpg?t=st=1710083069~exp=1710086669~hmac=afa39d52cdd49614345720950080c7bf7c7d7b86372daac03d751a7acc54159b&w=1060" class="d-block w-100" width="800" height="500" alt="">
+				</div>
+				<div class="carousel-item">
+					<img src="https://img.freepik.com/free-photo/party-space-ready-online-celebration_23-2149347282.jpg?t=st=1710083091~exp=1710086691~hmac=76ded7d8bcb1fda7886d7dad80d6523d897ad627c320a813aa627117fc415d4d&w=1060" class="d-block w-100" width="800" height="500" alt="">
+				</div>
+				<div class="carousel-item">
+					<img src="https://img.freepik.com/free-photo/high-angle-white-keyboard-with-lights_23-2149680254.jpg?t=st=1710083112~exp=1710086712~hmac=10ee4dec62a224ec272dc484bd1af3fe5c6bd2e9084f38cdb89f29a82b6c29e4&w=1060" class="d-block w-100" width="800" height="500" alt="">
+				</div>
+				<div class="carousel-item">
+					<img src="https://img.freepik.com/free-photo/white-keyboard-with-lights-high-angle_23-2149680240.jpg?t=st=1710084195~exp=1710087795~hmac=45ec0eb118a33e92c4b98f57528261d938a61a9b5b001f1e1e4403fa7423c471&w=1060" class="d-block w-100" width="800" height="500" alt="">
+				</div>
+				<div class="carousel-item">
+					<img src="https://img.freepik.com/free-photo/view-neon-illuminated-gaming-desk-setup-with-keyboard_23-2149529374.jpg?t=st=1710084251~exp=1710087851~hmac=d79fe6eaa840e3da652f4e21386b82bd5e21777ebe5f93e170b91f13a8507ff3&w=1060" class="d-block w-100" width="800" height="500" alt="">
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+
+		<!-- cards -->
+		<div id="cards-group">
+			<div class="card" style="width: 18rem;">
+				<img src="https://images.tokopedia.net/img/cache/900/VqbcmM/2024/3/4/325b9ae0-b37e-436d-b1c2-68c7d2f17e92.jpg" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">Wuque Jade Linear Switch</h5>
+					<p class="card-sku">WUQUE Studio</p>
+					<p class="card-amount">Stok Total : 1000</p>
+					<p class="card-price">Rp 6.900/Switch</p>
+					<input class="quantity-input" type="number" name="search">
+					<a href="#" class="btn btn-primary">Buy</a>
+					<a href="#" class="btn btn-primary">
+						<i class="fa fa-cart-plus" aria-hidden="true"></i>
+					</a>
+				</div>
+			</div>
+			<div class="card" style="width: 18rem;">
+				<img src="https://images.tokopedia.net/img/cache/200-square/VqbcmM/2024/3/4/7c73274e-2e1f-4e4f-a4ae-d214627f06d0.jpg" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">Game 1989 MX Stem 80Retros Switch</h5>
+					<p class="card-sku">GAME1989</p>
+					<p class="card-amount">Stok Total : 750</p>
+					<p class="card-price">Rp 3.500/Switch</p>
+					<input class="quantity-input" type="number" name="search">
+					<a href="#" class="btn btn-primary">Buy</a>
+					<a href="#" class="btn btn-primary">
+						<i class="fa fa-cart-plus" aria-hidden="true"></i>
+					</a>
+				</div>
+			</div>
+			<div class="card" style="width: 18rem;">
+				<img src="https://images.tokopedia.net/img/cache/200-square/VqbcmM/2024/1/25/e9d61da0-0597-48d5-8132-01a05fa7046a.jpg" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">Akko V3 Silver Pro Switch</h5>
+					<p class="card-sku">AKKO</p>
+					<p class="card-amount">Stok Total : 300</p>
+					<p class="card-price">Rp 4.500/Switch</p>
+					<input class="quantity-input" type="number" name="search">
+					<a href="#" class="btn btn-primary">Buy</a>
+					<a href="#" class="btn btn-primary">
+						<i class="fa fa-cart-plus" aria-hidden="true"></i>
+					</a>
+				</div>
+			</div>
+			<div class="card" style="width: 18rem;">
+				<img src="https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/9/22/94e8347a-ac1b-43cb-86cc-07dc89eb3f2d.jpg" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">KTT Macaron Series Purple Mechanical Switch</h5>
+					<p class="card-sku">KTT</p>
+					<p class="card-amount">Stok Total : 250</p>
+					<p class="card-price">Rp 3.500/Switch</p>
+					<input class="quantity-input" type="number" name="search">
+					<a href="#" class="btn btn-primary">Buy</a>
+					<a href="#" class="btn btn-primary">
+						<i class="fa fa-cart-plus" aria-hidden="true"></i>
+					</a>
+				</div>
+			</div>
+			<div class="card" style="width: 18rem;">
+				<img src="https://images.tokopedia.net/img/cache/200-square/VqbcmM/2024/1/10/3425ec7d-8a24-438e-bb6f-93ccbac0b3a8.jpg" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">VortexSeries Outemu Jade White (Linear 3-Pins Switch)</h5>
+					<p class="card-sku">VORTEX</p>
+					<p class="card-amount">Stok Total : 150</p>
+					<p class="card-price">Rp 2.900/Switch</p>
+					<input class="quantity-input" type="number" name="search">
+					<a href="#" class="btn btn-primary">Buy</a>
+					<a href="#" class="btn btn-primary">
+						<i class="fa fa-cart-plus" aria-hidden="true"></i>
+					</a>
+				</div>
+			</div>
+			<div class="card" style="width: 18rem;">
+				<img src="https://images.tokopedia.net/img/cache/900/VqbcmM/2023/7/1/66fe7028-59a2-414e-b0b5-fc9eb7760812.jpg" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">Ajazz Crystal Yellow Switch</h5>
+					<p class="card-sku">AJAZZ</p>
+					<p class="card-amount">Stok Total : 100</p>
+					<p class="card-price">Rp 2.000/Switch</p>
+					<input class="quantity-input" type="number" name="search">
+					<a href="#" class="btn btn-primary">Buy</a>
+					<a href="#" class="btn btn-primary">
+						<i class="fa fa-cart-plus" aria-hidden="true"></i>
+					</a>
+				</div>
+			</div>
+      <div class="card" style="width: 18rem;">
+				<img src="https://images.tokopedia.net/img/cache/900/VqbcmM/2023/5/12/737d8066-974e-4246-aed3-533e4f6a52e4.jpg" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">JWICK Ultimate Black V2 Switch</h5>
+					<p class="card-sku">DUROCK</p>
+					<p class="card-amount">Stok Total : 650</p>
+					<p class="card-price">Rp 3.750/Switch</p>
+					<input class="quantity-input" type="number" name="search">
+					<a href="#" class="btn btn-primary">Buy</a>
+					<a href="#" class="btn btn-primary">
+						<i class="fa fa-cart-plus" aria-hidden="true"></i>
+					</a>
+				</div>
+			</div>
+      <div class="card" style="width: 18rem;">
+				<img src="https://images.tokopedia.net/img/cache/900/VqbcmM/2023/4/29/44d2280a-6652-4644-a3e3-4d38fd05c72f.jpg" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title">Aflion Shadow Switch</h5>
+					<p class="card-sku">AFLION</p>
+					<p class="card-amount">Stok Total : 400</p>
+					<p class="card-price">Rp 4.000/Switch</p>
+					<input class="quantity-input" type="number" name="search">
+					<a href="#" class="btn btn-primary">Buy</a>
+					<a href="#" class="btn btn-primary">
+						<i class="fa fa-cart-plus" aria-hidden="true"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<!-- table -->
+		<div id="table-container">
+			<table id="carttable">
+				<tr>
+					<th>No</th>
+					<th>Nama</th>
+					<th>SKU</th>
+					<th>Kuantitas</th>
+					<th>Harga</th>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>Wuque Jade Linear Switch</td>
+					<td>WUQUE Studio</td>
+					<td>1000</td>
+					<td>Rp 6.900/Switch</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Game 1989 MX Stem 80Retros Switch</td>
+					<td>GAME1989</td>
+					<td>750</td>
+					<td>Rp 3.500/Switch</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Akko V3 Silver Pro Switch</td>
+					<td>AKKO</td>
+					<td>300</td>
+					<td>Rp 4.500/Switch</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>KTT Macaron Series Purple Mechanical Switch</td>
+					<td>KTT</td>
+					<td>250</td>
+					<td>Rp 3.500/Switch</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>VortexSeries Outemu Jade White (Linear 3-Pins Switch)</td>
+					<td>VORTEX</td>
+					<td>150</td>
+					<td>Rp 2.900/Switch</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>Ajazz Crystal Yellow Switch</td>
+					<td>AJAZZ</td>
+					<td>100</td>
+					<td>Rp 2.000/Switch</td>
+				</tr>
+        <tr>
+					<td>7</td>
+					<td>JWICK Ultimate Black V2 Switch</td>
+					<td>DUROCK</td>
+					<td>650</td>
+					<td>Rp 3.750/Switch</td>
+				</tr>
+        <tr>
+					<td>8</td>
+					<td>Aflion Shadow Switch</td>
+					<td>AFLION</td>
+					<td>400</td>
+					<td>Rp 4.000/Switch</td>
+				</tr>
+			</table>
+		</div>
+
+		<!-- video -->
+		<div class="video-section">
+
+			<!-- Video component -->
+			<iframe width="100%" height="315" src="https://www.youtube.com/embed/qQWvxSAu_lw" frameborder="0" allowfullscreen></iframe>
+		</div>
+
+		<!-- tes modal registrasi -->
+		<div class="modal fade" id="form-registrasi" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">Form Registrasi</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<form id="registrationForm">
+						<div class="modal-body">
+
+							<label for="name">Nama:</label>
+							<input type="text" id="name" name="name" required>
+						
+							<label for="age">Umur:</label>
+							<input type="number" id="age" name="age" required>
+						
+							<label for="email">Email:</label>
+							<input type="email" id="email" name="email" required>
+						
+							<label for="address">Alamat:</label>
+							<textarea id="address" name="address" required></textarea>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+							<button type="submit" class="btn btn-primary">Daftar</button>
+						</div>
+					</form>	
+				</div>
+			</div>
+		</div>
+
+		<!-- tes modal login -->
+		<div class="modal fade" id="form-login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">Form Registrasi</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<form id="loginForm">
+						<div class="modal-body">
+							<label for="email">Email:</label>
+							<input type="email" id="email" name="email" required>
+							<label for="password">Password:</label>
+							<input type="password" id="password" name="password" required>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+							<button type="submit" class="btn btn-primary">Login</button>
+						</div>
+					</form>	
+				</div>
+			</div>
+		</div>
+		
+
+		<!-- footer -->
+		<style>
+			footer {
+				background-color: #31363F;
+				color: white;
+				text-align: center;
+				padding: 10px;
+				position: relative;
+				bottom: 0;
+				width: 100%;
+			}
+		</style> 
+			<footer>
+				&copy; 2024 Switch Store
+			</footer>
+
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
+

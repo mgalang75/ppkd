@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Bagian Header */
+.header {
+    background-color: #31363F;
+    padding: 20px;
+    text-align: center;
+}
+
+.header img {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+.header h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #f9f9f9;
+}
+
+.id-search {
+    padding: 5px;
+    border-radius: 5px 5px 5px 5px;
+    border: none;
+}
+
+.id-button {
+    padding: 6px;
+    background-color: #45a049;
+    border: none;
+    cursor : pointer;
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.id-button:hover {
+    background-color: #4CAF50;
+}
+
+.video-section {
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Bagian Navbar */
+body .navbar {
+    padding: 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+    height: max-content;
+    
+}
+
+.navbar div {
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar a {
+    background-color: #f5f5f5;
+    margin: 0;
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    padding: 14px 20px;
+    color: #222831
+}
+
+/* Bagian Card Gambar Produck */
+#cards-group {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 25px;
+    justify-content: center;
+}
+
+
+.quantity-input {
+    padding: .375rem .30rem;
+    width: 135px;
+    border-radius: 5px 5px 5px 5px;
+    border: none;
+    background-color: rgb(221, 218, 218);
+    vertical-align: middle;
+}
+
+#table-container {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/* Bagian SKU */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Gaya untuk baris ganjil */
+table tr:nth-child(odd) {
+    background-color: #FFF7F1;
+}
+
+/* Gaya saat kursor diarahkan ke baris */
+table tr:hover {
+    background-color: #76ABAE;
+}
+
+/* Gaya untuk kolom harga */
+table td:last-child {
+    text-align: left;
+}
+
+/* Gaya untuk sel header */
+table th {
+    background-color: #31363F;
+    color: white;
+}
+
+/* Bagian Form Regis */
+#registrationForm {
+    max-width: 400px; /* Lebar maksimum formulir */
+    margin: 20px auto; /* Posisi formulir di tengah */
+    padding: 20px; /* Ruang di dalam formulir */
+    background-color: #f9f9f9; /* Warna latar belakang formulir */
+    border-radius: 8px; /* Sudut formulir melengkung */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan untuk efek angkat */
+}
+
+/* Style for form labels */
+#registrationForm label {
+    display: block; /* Tampilkan label dalam satu baris */
+    margin-bottom: 5px; /* Jarak antara label dan input */
+    color: #333; /* Warna teks label */
+    font-weight: bold; /* Teks label menjadi lebih tebal */
+}
+
+/* Bagian From Login */
+#loginForm {
+    max-width: 400px; /* Lebar maksimum formulir */
+    margin: 20px auto; /* Posisi formulir di tengah */
+    padding: 20px; /* Ruang di dalam formulir */
+    background-color: #f9f9f9; /* Warna latar belakang formulir */
+    border-radius: 8px; /* Sudut formulir melengkung */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan untuk efek angkat */
+}
+
+/* Style for form labels */
+#loginForm label {
+    display: block; /* Tampilkan label dalam satu baris */
+    margin-bottom: 5px; /* Jarak antara label dan input */
+    color: #333; /* Warna teks label */
+    font-weight: bold; /* Teks label menjadi lebih tebal */
+}
+
